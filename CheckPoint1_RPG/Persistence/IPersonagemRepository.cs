@@ -4,9 +4,9 @@ namespace CheckPoint1_RPG.Persistence
 {
     public interface IPersonagemRepository
     {
-        Personagem getById(int id);
+        Personagem GetById(int id);
 
-        IEnumerable<Personagem> getAll();
+        IEnumerable<Personagem> GetAll();
 
         void Add(Personagem entity);
 
